@@ -29,15 +29,7 @@ header > h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-main {
-  margin: 20px;
-  border: 1px solid darkblue;
-  background-color: white;
-  width: 50%; /* Ajustando para 80% da largura do viewport */
-  max-width: 800px; /* Limitando a largura máxima para 800px */
-  padding: 10px;
-  margin: auto;
-}
+
 
 p {
   margin-bottom: 10px;
