@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 249, 249);
-  background-image: url(wallpaper002.jpg);
+  background-image: url(pexels-piccinng-3052361.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ header {
 
 header > h1 {
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   color: rgb(255, 255, 255);
   background-color: rgba(0, 123, 255, 0.2);
   padding: 20px;
