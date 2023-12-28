@@ -1,68 +1,74 @@
-*{
-    margin: 0;
-    
-}
-body{
-    background-color: rgb(253, 249, 249);
-    background-image: url(wallpaper002.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
+/* Reset de margens */
+* {
+  margin: 0;
 }
 
-header{
-background-color: rgba(114, 114, 114, 0.247);
-border: 2px solid rgba(0, 0, 0, 0.295);
-margin-bottom: 20px;
-
+body {
+  background-color: rgb(253, 249, 249);
+  background-image: url(wallpaper002.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; /* Adicionando margem zero para o corpo da página */
 }
 
-header > h1{
-    text-align: center;
-    font-size: 3em;
-    color:rgb(255, 255, 255);
+header {
+  background-color: rgba(114, 114, 114, 0.247);
+  border: 2px solid rgba(0, 0, 0, 0.295);
+  margin-bottom: 20px;
 }
 
-main{
-    margin: 20px;
-    border: 1px solid darkblue;
-    background-color: white;
-    width: 400px;
-    padding: 10px;
-    margin: auto;
+header > h1 {
+  text-align: center;
+  font-size: 4em;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 123, 255, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  tr{
-    border: 2px solid black;
-  }
-  #nome{
-    border: 2px solid black;
-    margin-left: 5px;
+main {
+  margin: 20px;
+  border: 1px solid darkblue;
+  background-color: white;
+  width: 80%; /* Ajustando para 80% da largura do viewport */
+  max-width: 800px; /* Limitando a largura máxima para 800px */
+  padding: 10px;
+  margin: auto;
+}
 
-  }
+p {
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-  th {
-    background-color: #9ecbfd;
-  }
-  td{
-    margin-left: 10px;
+/* Estilos básicos para o link dentro do parágrafo */
+p a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+/* Mudança de cor ao passar o mouse */
+p a:hover {
+  background-color: #0056b3;
+}
+
+/* Para evitar espaçamento extra após o último link */
+p a:last-child {
+  margin-right: 0;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
   
-  }
 
 
-img{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    margin-left: 60px;
-}
 
-#tecido{
-    margin-left: -100px;
-}
